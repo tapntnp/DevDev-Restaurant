@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDev Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-content-flex">
+                <div class="topbar-content-1">
+                    <div class="topbar-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <span>DevDev Restaurant, พระราม9, ห้วยขวาง, กรุงเทพฯ</span>
+                </div>
+                <div class="topbar-content-2">
+                    <div class="topbar-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <span>ร้านเปิด : 08:00 - 21:00</span>
+                </div>
+                <div class="topbar-content-3">
+                    <a href="tel:+661234567890">
+                        <div class="topbar-icon">
+                            <i class="fa solid fa-phone"></i>
+                        </div>
+                        <span>1234-567-890</span>
+                    </a>
+                    
+
+                </div>
+                <div class="topbar-content-4">
+
+                    <a href="mailto:tr.testt@gmail.com">
+                        <div class="topbar-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <span>tr.testt@gmail.com</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <section class="topHeader" id="section-topHeader">
+            <nav>
+                <a href="index.html"><img src="/img/Logo.png" alt=""></a>
+                <div class="menu" id="menu">
+                    <i class="fa -solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#section-topHeader">หน้าหลัก</a></li>
+                        <li><a href="#section-menu-list">เมนู</a></li>
+                        <li><a href="#section-booking">การจอง</a></li>
+                        <li><a href="#section-story">เกี่ยวกับเรา</a></li>
+                        <li><a href="#section-booking">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <i class="fa -solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="banner-Text">
+                <h1>ร้านอาหารใหม่ ใจกลางเมือง ใกล้รถไฟฟ้า BTS MRT สะดวกทุกการเดินทาง</h1>
+                <p>อาหารอร่อย บรรยากาศดี เหมาะกับทุกโอกาส สังสรรค์ ปาร์ตี้ ฉลอง</p>
+                <a href="#section-booking" class="banner-button">สำรองที่นั่ง</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="promote">
+            <div class="container">
+                <h3>ร้านอาหารคุณภาพระดับภัตตาคาร</h3>
+                <h1>วัตถุดิบระดับคุณภาพสำหรับคุณ</h1>
+                <p>ร้านของเราคัดเลือกเฉพาะ “วัตถุดิบคุณภาพดี” ซึ่งเป็นพื้นฐานสำคัญที่ทำให้แต่ละเมนูออกมามีคุณภาพที่ดี รสชาติอร่อย และช่วยเสริมสร้างประโยชน์ต่อสุขภาพของผู้บริโภค ทางร้านให้ความสำคัญกับผู้บริโภคถือเป็นเรื่องสำคัญที่สุดทั้งด้านบริการและด้านโภชนาการ</p>
+
+                <div class="promote-wrap">
+                    <i class="fa -solid fa-chevron-left" id="backBtn"></i>
+                    <div class="promote-list">
+                        <div>
+                            <span><img src="/img/promotion-1.jpeg" alt=""></span>
+                            <span><img src="/img/promotion-2.jpeg" alt=""></span>
+                            <span><img src="/img/promotion-3.jpeg" alt=""></span>
+                            <span><img src="/img/promotion-4.jpeg" alt=""></span>
+                            <span><img src="/img/promotion-5.jpeg" alt=""></span>
+                            <span><img src="/img/promotion-6.jpg" alt=""></span>
+                            <span><img src="/img/promotion-7.jpeg" alt=""></span>
+                        </div>
+                    </div>
+                    <i class="fa -solid fa-chevron-right" id="nextBtn"></i>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="story" id="section-story">
+            <div class="container">
+                <div class="story-grid">
+                    <div class="story-detail">
+                        <h3>ประวัติความเป็นมา</h3>
+                        <h1>เรื่องราวเกี่ยวกับร้านของเรา</h1>
+                        <p>ร้านอาหาร DevDev เป็นร้านอาหารราคาและบรรยากาศแบบบ้านๆแต่คุณภาพเสมือนกับระดับภัตตาคาร ต้นกำเนิดของร้านเกิดจากทางเจ้าของร้านอยากที่จะเปิดร้านอาหารหรูที่มีราคาในแบบที่ผู้บริโภคสามารถเข้าถึงได้ทุกระดับจึงทำให้ร้านของเราเติบโตได้อย่างรวดเร็วและได้เปิดตัวอย่างเป็นทางการในปี 2567</p>
+                        <h4>สอบถามเพิ่มเติมโทร</h4>
+                        <a href="tel:+661234567890">
+                            <h1 class="story-detail-h1">
+                                1234-567-890
+                            </h1>
+                        </a>
+                        <a href="#" class="story-banner-button">เกี่ยวกับเรา</a>
+                        <div class="underline"></div>
+
+                    </div>
+                    <div class="story-banner">
+                        <img src="/img/story-banner-1.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu-list" id="section-menu-list">
+            <div class="container">
+                <h1>รายการอาหารยอดฮิต</h1>
+                <p>เมนูแนะนำจากทางร้านที่มียอดสั่งมากที่สุด</p>
+                <div class="menu-list-grid">
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-1.jpeg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">สลัดผัก</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 59 บาท</h4>
+                            <p>แอปเปิ้ล,ผักกาดหอม,แครอท,กะหล่ำม่วง,ข้าวโพด,แคนตาลูป,องุ่นดำไร้เมล็ด,กีวี่</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-2.jpeg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">ข้าวผัด</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 69 บาท</h4>
+                            <p>หมู,หมึก,กุ้ง,เนื้อ,หอย,เนื้อ,ไส้กรอก,แฮม,ผัก,ไข่,รวมมิตร</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-3.jpg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">สเต็กเนื้อ</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 99 บาท</h4>
+                            <p>เนื้อคุณภาพระดับ A5 ส่งตรงจากต่างประเทศ</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-4.jpg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">สปาเก็ตตี้ผักขี้เมา</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 89 บาท</h4>
+                            <p>คัดเลือกเส้นที่มีคุณภาพ เหนียว นุ่ม และเนื้อสัตว์คุณภาพดี</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-5.jpeg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">ต้มยำกุ้ง</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 89 บาท</h4>
+                            <p>กุ้งทุกตัวสดใหม่และผ่านการชั่งน้ำหนักก่อนปรุงอาหารทุกครั้งเพื่อให้ประโยชน์สูงสุดแก่ผู้บริโภค</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-6.jpg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">ไก่ทอด</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 59 บาท</h4>
+                            <p>เนื้อไก่สดสะอาด คุณภาพดี ทอดกรอบพร้อมรับประทานคู่กับซอสสูตรของทางร้าน</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-7.jpg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">ปูนึ่ง</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 220 บาท</h4>
+                            <p>ปูสดใหม่ทุกตัวและทำการชั่งน้ำหนักทุกครั้งก่อนปรุงอาหาร</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="menu-list-item-detail">
+                            <img src="img/menu-8.jpeg" alt="">
+                        </div>
+                        <div class="menu-list-item-detail-right">
+                            <h4 class="menu-list-item-detail-righ-1">บุฟเฟต์ปิ้ง - ย่าง</h4>
+                            <h4 class="menu-list-item-detail-righ-2">ราคา : 189 บาท</h4>
+                            <p>เมนูยอดฮิตที่ได้รับความนิยมในร้าน เนื้อคุณภาพดี หมู ทะเล สามารถรับประทานได้โดยไม่คิดค่าใช้จ่ายเพิ่มเติม</p>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="booking" id="section-booking">
+            <div class="container">
+                <div class="booking-grid">
+                    <div class="booking-form">
+                        <div class="booking-form-block">
+                            <h1 >
+                                สำรองที่นั่งออนไลน์
+                            </h1>
+                            <p>สนใจสำรองที่นั่งโทร 
+                                <a href="tel:1234567890">1234567890</a>
+                                หรือสามารถสั่งจองได้ผ่านทางระบบออนไลน์
+                            </p>
+                            <form action="https://formsubmit.co/tr.webtestt@gmail.com" class="booking-form-left" method="POST">
+                                <input type="text" name="Name"  class="input-form" required placeholder="ชื่อผู้จอง">
+                                <input type="tel" name="Phone Number"  class="input-form" required placeholder="เบอร์ติดต่อ">
+                                <input type="datetime-local" class="input-form" name="booking-time" value="2024-12-26T19:00" min="2024-12-26T00:00" max="2025-12-31T00:00" />
+                                <select name="Person" class="input-form" required placeholder="Person">
+                                    <option value="">จำนวนที่นั่ง</option>
+                                    <option value="Service-1">1 ท่าน</option>
+                                    <option value="Service-2">2 ท่าน</option>
+                                    <option value="Service-3">3 ท่าน</option>
+                                    <option value="Service-3">4 ท่าน</option>
+                                    <option value="Service-3">5 ท่าน</option>
+                                </select>
+                                <textarea name="Massage"  required placeholder="ข้อความ" class="booking-Message"></textarea>
+                                <button type="Submit" class="booking-input-submit">ยืนยันการจอง</button>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="booking-detail">
+                        <h1>ติดต่อเรา</h1>
+                        <p class="booking-detail-1">สอบถามเพิ่มเติมโทร</p>
+                        <a href="tel:1234567890">1234567890</a>
+                        <div class="booking-detail-location">
+                            <h4>สถานที่</h4>
+                            <p>DevDev Restaurant, พระราม9, ห้วยขวาง, กรุงเทพฯ</p>
+                        </div>
+                        <div class="booking-detail-OpenTime">
+                            <h4>เวลาทำการ</h4>
+                            <p>
+                                จันทร์ ถึง ศุกร์
+                            </p>
+                            <p>เวลา 08:00 - 21:00</p>
+                        </div>
+
+                        <img src="img/banner.jpg" alt="">
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer" id="section-footer">
+            <div class="footer-grid">
+                <div class="footer-detail-grid">
+                    <div class="footer-link">
+                        <ul>
+                            <li><a href="#section-topHeader">หน้าหลัก</a></li>
+                            <li><a href="#section-menu-list">เมนู</a></li>
+                            <li><a href="#section-booking">การจอง</a></li>
+                            <li><a href="#section-story">เกี่ยวกับเรา</a></li>
+                            <li><a href="#section-booking">ติดต่อเรา</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-about">
+                        <img src="img/Logo.png" alt="">
+                    </div>
+                    <div class="footer-social">
+                        <div class="footer-social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                                <li><a href="https://www.youtube.com/">YouTube</a></li>
+                                <li><a href="https://www.tiktok.com/">TikTok</a></li>
+                                <li><a href="https://www.x.com/">Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <div class="copyright">© DevDev Restaurant. All Rights Reserved. Designed by Tanapat.</div>
+    </footer>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
