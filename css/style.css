@@ -725,44 +725,12 @@ nav .fa {
 /* --------------------- main ----------------------- */
 @media screen and (max-width:480px) {
 
-    /* top ถ้ามี */
-    /* .topbar-content-flex{
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        font-size: 15px;
-        padding: 10px 0;
-    }
-
-    .topbar-content-1{
-
-        display: inline-flex;
-        margin: auto;
-    }
-
-    .topbar-content-2{
-        display: inline-flex;
-        margin: auto;
-    }
-    .topbar-content-3{
-        display: none;
-    }
-    .topbar-content-4{
-        display: none;
-    } */
-
-    /* ลบ top */
     .topbar{
         display: none;
     }
 
 
     /* ---------------------- Nav------------------------- */
-
-    /* nav{
-        background-color: black;
-    } */
 
     nav img{
         width: 100px;
